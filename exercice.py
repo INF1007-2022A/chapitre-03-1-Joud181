@@ -5,6 +5,7 @@
 import math
 
 def square_root(a: float) -> float:
+    print("Print inside square root")
     return 0.0
 
 
@@ -33,7 +34,9 @@ def to_farenheit(temperature: float) -> float:
 
 
 def main() -> None:
-    print(f"La racine carré de 144 est : {square_root(144)}")
+    result = square_root(25)
+    #print("Test resul : ", result)
+    #print(f"La racine carré de 144 est : {square_root(144)}")
 
     print(f"Le carré de 12 est : {square(12)}")
 
